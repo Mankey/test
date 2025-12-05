@@ -24,15 +24,41 @@ export const metadata: Metadata = {
       {
         url: "/icon-light-32x32.png",
         media: "(prefers-color-scheme: light)",
+        type: "image/png",
+        sizes: "32x32",
       },
       {
         url: "/icon-dark-32x32.png",
         media: "(prefers-color-scheme: dark)",
+        type: "image/png",
+        sizes: "32x32",
       },
     ],
     apple: "/apple-icon.png",
   },
-}
+  openGraph: {
+    title: "Suncrest Roleplay",
+    description: "The most immersive FiveM roleplay experience. Join the streets today.",
+    url: "https://YOURDOMAIN.com", // ← update to your real domain
+    siteName: "Suncrest Roleplay",
+    images: [
+      {
+        url: "/card.png", // ← make sure this file exists in /public
+        width: 1200,
+        height: 630,
+        alt: "Suncrest Roleplay",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Suncrest Roleplay",
+    description: "The most immersive FiveM roleplay experience. Join the streets today.",
+    images: ["/card.png"],
+  },
+};
+
 
 export default function RootLayout({
   children,
