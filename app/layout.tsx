@@ -16,7 +16,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "SCRP - Suncrest Roleplay",
+  title: "Suncrest Roleplay",
   description: "The most immersive FiveM roleplay experience. Join the streets today.",
   generator: "v0.app",
   icons: {
