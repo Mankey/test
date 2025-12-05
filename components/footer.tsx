@@ -16,7 +16,7 @@ export function Footer() {
             />
             <p className="text-muted-foreground max-w-md leading-relaxed">
               {
-                "The premier FiveM roleplay experience. Join thousands of players in the most immersive street roleplay server."
+                "The premier FiveM roleplay experience. Join players in the most immersive street roleplay server."
               }
             </p>
           </div>
